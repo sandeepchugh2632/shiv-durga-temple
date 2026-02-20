@@ -1,0 +1,1547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shiv Durga Hindu Temple</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Lato:wght@300;400;700&family=Noto+Serif+Devanagari:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="om-symbol">ॐ</span>
+        <div class="logo-text">
+          <span class="temple-name">Shiv Durga</span>
+          <span class="temple-sub">Hindu Temple</span>
+        </div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pooja-schedule">Schedule</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#kitchen">Kitchen</a></li>
+        <li><a href="#life-at-sdht">Life at SDHT</a></li>
+        <li><a href="#businesses">Businesses</a></li>
+        <li><a href="https://www.mypanchang.com/2026/hi/Chicago-IL/1/october.html" target="_blank" rel="noopener" class="nav-panchang">📅 Panchang</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="mandala-bg mandala-left"></div>
+
+    <div class="hero-layout">
+
+      <!-- ── LEFT: Full-height Photo Slideshow ── -->
+      <div class="hero-slideshow" id="heroSlideshow">
+        <div class="hss-track" id="hssTrack">
+          <div class="hss-slide active">
+            <img src="photos/event-1.jpg" alt="Maha Shivaratri Celebration" loading="eager" />
+          </div>
+          <div class="hss-slide">
+            <img src="photos/event-2.jpg" alt="Temple Devotees" loading="lazy" />
+          </div>
+          <div class="hss-slide">
+            <img src="photos/event-3.jpg" alt="Sacred Rituals" loading="lazy" />
+          </div>
+          <div class="hss-slide">
+            <img src="photos/event-4.jpg" alt="Community Gathering" loading="lazy" />
+          </div>
+          <div class="hss-slide">
+            <img src="photos/event-5.jpg" alt="Temple Ceremony" loading="lazy" />
+          </div>
+          <div class="hss-slide">
+            <img src="photos/event-6.jpg" alt="Devotees at Temple" loading="lazy" />
+          </div>
+          <div class="hss-slide">
+            <img src="photos/event-7.jpg" alt="Festival Celebration" loading="lazy" />
+          </div>
+          <div class="hss-slide">
+            <img src="photos/event-8.jpg" alt="Puja Ceremony" loading="lazy" />
+          </div>
+          <div class="hss-slide">
+            <img src="photos/event-9.jpg" alt="Temple Community" loading="lazy" />
+          </div>
+        </div>
+
+        <!-- Caption overlay -->
+        <div class="hss-caption">
+          <span class="hss-tag">📸 Last Event</span>
+          <span class="hss-event-name">Maha Shivaratri 2026</span>
+        </div>
+
+        <!-- Navigation arrows -->
+        <button class="hss-arrow hss-prev" id="hssPrev" aria-label="Previous photo">&#8249;</button>
+        <button class="hss-arrow hss-next" id="hssNext" aria-label="Next photo">&#8250;</button>
+
+        <!-- Dot indicators -->
+        <div class="hss-dots" id="hssDots">
+          <button class="hss-dot active" data-index="0" aria-label="Photo 1"></button>
+          <button class="hss-dot" data-index="1" aria-label="Photo 2"></button>
+          <button class="hss-dot" data-index="2" aria-label="Photo 3"></button>
+          <button class="hss-dot" data-index="3" aria-label="Photo 4"></button>
+          <button class="hss-dot" data-index="4" aria-label="Photo 5"></button>
+          <button class="hss-dot" data-index="5" aria-label="Photo 6"></button>
+          <button class="hss-dot" data-index="6" aria-label="Photo 7"></button>
+          <button class="hss-dot" data-index="7" aria-label="Photo 8"></button>
+          <button class="hss-dot" data-index="8" aria-label="Photo 9"></button>
+        </div>
+
+        <!-- Photo counter -->
+        <div class="hss-counter"><span id="hssCurrentNum">1</span> / 9</div>
+      </div>
+
+      <!-- ── RIGHT: Identity on top + Events panel below ── -->
+      <div class="hero-right">
+
+        <!-- Temple Identity -->
+        <div class="hero-identity">
+          <div class="hero-om-wrap">
+            <span class="hero-om">ॐ</span>
+          </div>
+          <p class="hero-sanskrit">जय माता दी &nbsp;•&nbsp; हर हर महादेव</p>
+          <h1 class="hero-title">
+            <span>Shiv Durga</span>
+            <span>Hindu Temple</span>
+          </h1>
+          <p class="hero-tagline">Aurora, Illinois &nbsp;|&nbsp; Est. 2019</p>
+          <p class="hero-sub">A Sacred Space for Prayer, Peace &amp; Community</p>
+          <div class="hero-quick-info">
+            <span class="hqi-item"><span class="hqi-icon">📍</span>4315 Westbrook Dr, Aurora IL</span>
+            <span class="hqi-item"><span class="hqi-icon">📞</span>(847) 436-8526</span>
+            <span class="hqi-item"><span class="hqi-icon">🕉️</span>Aarti: 8 AM &amp; 7 PM Daily</span>
+          </div>
+          <div class="hero-buttons">
+            <a href="#services" class="btn btn-primary">Pooja Services</a>
+            <a href="#events" class="btn btn-outline">See All Events</a>
+            <a href="#contact" class="btn btn-ghost">Plan Your Visit</a>
+          </div>
+        </div>
+
+        <!-- Upcoming Events Panel -->
+        <div class="hero-events-panel">
+          <div class="hep-header">
+            <span class="hep-live-dot"></span>
+            <span class="hep-title">Upcoming Events</span>
+            <a href="#events" class="hep-view-all">View All →</a>
+          </div>
+
+          <!-- Event slideshow -->
+          <div class="hep-event-slider" id="hepSlider">
+            <div class="hep-slides-wrap" id="hepSlidesWrap">
+
+              <!-- Slide 1: Holi 2026 -->
+              <div class="hep-slide hep-slide-holi">
+                <div class="holi-slide-header">
+                  <span class="holi-slide-badge">🎨 Next Big Event · Free Entry</span>
+                  <span class="holi-slide-date-pill">SAT · MAR 7, 2026</span>
+                </div>
+                <div class="holi-slide-title">
+                  <span class="holi-slide-emoji">🌈</span>
+                  <h4>Holi Celebration 2026</h4>
+                </div>
+                <div class="holi-schedule">
+                  <div class="holi-time-row">
+                    <span class="holi-time-badge t1">1:30 PM</span>
+                    <div class="holi-time-text">
+                      <strong>Ganesh Puja &amp; Maha Aarti</strong>
+                      Indoor Cultural Program · Flower Holi with Krishna
+                    </div>
+                  </div>
+                  <div class="holi-time-row">
+                    <span class="holi-time-badge t2">2:30 PM</span>
+                    <div class="holi-time-text">
+                      <strong>Outdoor Color Holi + DJ</strong>
+                      Play with colors · Wear white! Colors on sale
+                    </div>
+                  </div>
+                  <div class="holi-time-row">
+                    <span class="holi-time-badge t3">6:00 PM</span>
+                    <div class="holi-time-text">
+                      <strong>Holika Dahan</strong>
+                      Sacred bonfire ritual
+                    </div>
+                  </div>
+                </div>
+                <div class="holi-chips">
+                  <span class="holi-chip">🍵 Food &amp; Tea on Site</span>
+                  <span class="holi-chip">🎨 Colors for Sale</span>
+                  <span class="holi-chip">🎵 Live DJ</span>
+                </div>
+                <a href="#events" class="holi-slide-cta">Learn More &amp; Join Us →</a>
+              </div>
+
+              <!-- Slide 2: Ram Navami -->
+              <div class="hep-slide hep-slide-navami">
+                <div class="navami-slide-header">
+                  <span class="navami-slide-badge">🏹 Upcoming · Apr 6</span>
+                  <span class="navami-slide-date-pill">SUN · APR 6, 2026</span>
+                </div>
+                <div class="navami-body">
+                  <h4>Ram Navami &amp; Chandi Hawan</h4>
+                  <p>Celebrate the auspicious birthday of Lord Ram with special Vedic puja, Chandi Hawan, bhajans &amp; prasad distribution.</p>
+                  <span class="navami-meta">⏰ 9:00 AM – 1:00 PM · Main Temple Hall</span>
+                </div>
+              </div>
+
+            </div><!-- /hep-slides-wrap -->
+
+            <!-- Dot indicators -->
+            <div class="hep-slider-dots">
+              <button class="hep-slider-dot active" data-hep="0"></button>
+              <button class="hep-slider-dot" data-hep="1"></button>
+            </div>
+
+          </div><!-- /hep-event-slider -->
+
+          <!-- Quick daily info footer -->
+          <div class="hep-footer">
+            <div class="hep-footer-item">
+              <span>🍱</span>
+              <div>
+                <strong>Kitchen Open</strong>
+                <span>Sundays 11 AM – 2 PM</span>
+              </div>
+            </div>
+            <div class="hep-footer-item">
+              <span>📿</span>
+              <div>
+                <strong>Satyanarayan Katha</strong>
+                <span>Every Saturday 5 PM</span>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /hero-events-panel -->
+
+      </div><!-- /hero-right -->
+
+    </div><!-- /hero-layout -->
+  </section>
+
+  <!-- ===== HOLI 2026 HIGHLIGHT ===== -->
+  <section class="holi-section" id="holi-highlight">
+    <div class="holi-bg-overlay"></div>
+    <div class="holi-content">
+
+      <div class="holi-header">
+        <span class="holi-label">🌸 Featured Upcoming Event · Free Entry</span>
+        <h2 class="holi-heading">Holi Celebration 2026</h2>
+        <span class="holi-date-pill">🗓 Saturday, March 7, 2026</span>
+      </div>
+
+      <div class="holi-schedule-cards">
+        <div class="holi-card hc1">
+          <span class="hc-time">1:30 PM</span>
+          <h4>Ganesh Puja &amp; Maha Aarti</h4>
+          <p>Indoor Cultural Program · Flower Holi with Krishna</p>
+        </div>
+        <div class="holi-card hc2">
+          <span class="hc-time">2:30 PM</span>
+          <h4>Outdoor Color Holi + DJ</h4>
+          <p>Color play with live DJ music. Wear white! Colors on sale at venue.</p>
+        </div>
+        <div class="holi-card hc3">
+          <span class="hc-time">6:00 PM</span>
+          <h4>Holika Dahan</h4>
+          <p>Traditional sacred bonfire ritual — the burning of Holika</p>
+        </div>
+      </div>
+
+      <div class="holi-bottom">
+        <div class="holi-chips-row">
+          <span class="holi-chip">🎨 Colors for Sale</span>
+          <span class="holi-chip">🍵 Food Stall &amp; Tea</span>
+          <span class="holi-chip">🎵 Live DJ</span>
+          <span class="holi-chip">🌸 Free Entry</span>
+          <span class="holi-chip">👨‍👩‍👧 All Ages Welcome</span>
+        </div>
+        <div class="holi-footer-row">
+          <span class="holi-venue-txt">📍 Shiv Durga Hindu Temple · 4315 Westbrook Dr, Aurora IL 60504</span>
+          <a href="tel:+18474368526" class="holi-cta-btn">📞 (847) 436-8526</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== ANNOUNCEMENT TICKER ===== -->
+  <div class="ticker-bar">
+    <div class="ticker-label">
+      <span class="om-small">ॐ</span> Announcements
+    </div>
+    <div class="ticker-track">
+      <div class="ticker-content">
+        🎨 COLOR HOLI &amp; HOLIKA DAHAN – Saturday, March 7, 2026 at 2:30 PM | 4315 Westbrook Dr, Aurora, IL – All are welcome! &nbsp;&nbsp;•&nbsp;&nbsp;
+        🍱 Temple Kitchen is OPEN every Sunday 11:00 AM – 2:00 PM | Enjoy fresh homemade prasad &amp; lunch &nbsp;&nbsp;•&nbsp;&nbsp;
+        🔔 Maha Shivaratri – Feb 26, 2026 | Special Rudrabhishek &amp; Aarti from 6 PM onwards &nbsp;&nbsp;•&nbsp;&nbsp;
+        🥘 Temple Kitchen Special: Pre-order your Prasad Thali for festival days – Call (847) 436-8526 &nbsp;&nbsp;•&nbsp;&nbsp;
+        📿 Weekly Satyanarayan Katha – Every Saturday at 5:00 PM &nbsp;&nbsp;•&nbsp;&nbsp;
+        🙏 Daily Aarti: Morning 8 AM &amp; Evening 7 PM | Open 365 days a year &nbsp;&nbsp;•&nbsp;&nbsp;
+        🌺 Navratri Puja Registration Open – Book your slot now | info@shivdurgahindutemple.org &nbsp;&nbsp;•&nbsp;&nbsp;
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Story</span>
+        <h2 class="section-title">About the Temple</h2>
+        <div class="title-ornament"><span>✦</span><span>✦</span><span>✦</span></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-wrap">
+          <div class="about-image-card">
+            <img src="templepics/main%20temple%20photo.webp" alt="Shiv Durga Hindu Temple - Aurora, Illinois" class="about-temple-img">
+            <div class="about-badge">
+              <span>Est. 2005</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-content">
+          <p class="about-lead">
+            The Shiv Durga Hindu Temple is a vibrant center of Hindu worship, culture, and community — a sacred home for devotees seeking spiritual solace and divine connection.
+          </p>
+          <p class="about-text">
+            Founded with the blessing of Lord Shiva and Goddess Durga, our temple serves as a beacon of Hindu traditions, rituals, and festivals. We welcome all devotees — from all walks of life — to experience the peace and grace that our sacred space offers.
+          </p>
+          <p class="about-text">
+            Our temple conducts daily pujas, abhishekams, and special ceremonies throughout the year, guided by our learned priests who follow Vedic traditions with devotion and authenticity.
+          </p>
+          <div class="about-features">
+            <div class="feature-item">
+              <span class="feature-icon">🕉️</span>
+              <div>
+                <strong>Vedic Rituals</strong>
+                <p>Authentic Vedic ceremonies conducted daily</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">🌺</span>
+              <div>
+                <strong>Community Events</strong>
+                <p>Festivals, cultural programs &amp; satsangs</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <span class="feature-icon">📚</span>
+              <div>
+                <strong>Education</strong>
+                <p>Sanskrit classes &amp; Hindu studies for all ages</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DEITIES ===== -->
+  <section class="section deities-section" id="deities">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Divine Presence</span>
+        <h2 class="section-title">Our Presiding Deities</h2>
+        <div class="title-ornament"><span>✦</span><span>✦</span><span>✦</span></div>
+      </div>
+      <div class="deities-grid">
+        <div class="deity-card">
+          <div class="deity-image shiva-bg">
+            <div class="deity-symbol">☽</div>
+          </div>
+          <div class="deity-info">
+            <h3>Lord Shiva</h3>
+            <p class="deity-title">Mahadev – The Supreme Being</p>
+            <p class="deity-desc">
+              The cosmic destroyer and transformer, Lord Shiva represents the ultimate reality. He is the lord of ascetics, the destroyer of evil, and the eternal source of benevolence and grace.
+            </p>
+            <div class="deity-mantra">
+              <span>मंत्र:</span> ॐ नमः शिवाय
+            </div>
+          </div>
+        </div>
+
+        <div class="deity-card featured-deity">
+          <div class="deity-image om-bg">
+            <div class="deity-symbol">ॐ</div>
+          </div>
+          <div class="deity-info">
+            <h3>Shiv &amp; Durga</h3>
+            <p class="deity-title">United in Divine Power</p>
+            <p class="deity-desc">
+              The sacred union of Shiva and Shakti — the masculine and feminine cosmic energies — represents the perfect balance of creation. Together they bless all devotees with protection, wisdom, and liberation.
+            </p>
+            <div class="deity-mantra">
+              <span>मंत्र:</span> ॐ शिव दुर्गायै नमः
+            </div>
+          </div>
+        </div>
+
+        <div class="deity-card">
+          <div class="deity-image durga-bg">
+            <div class="deity-symbol">⚡</div>
+          </div>
+          <div class="deity-info">
+            <h3>Goddess Durga</h3>
+            <p class="deity-title">Shakti – The Divine Mother</p>
+            <p class="deity-desc">
+              The warrior goddess, Durga embodies the divine feminine power. She is the protector of the righteous, destroyer of evil forces, and the nurturing mother who guides her devotees toward liberation.
+            </p>
+            <div class="deity-mantra">
+              <span>मंत्र:</span> ॐ दुं दुर्गायै नमः
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="other-deities">
+        <h3>Also Worshipped at Our Temple</h3>
+        <div class="other-deities-grid">
+          <div class="mini-deity">
+            <span class="mini-deity-icon">🐘</span>
+            <span>Lord Ganesha</span>
+          </div>
+          <div class="mini-deity">
+            <span class="mini-deity-icon">🦚</span>
+            <span>Lord Kartikeya</span>
+          </div>
+          <div class="mini-deity">
+            <span class="mini-deity-icon">🌸</span>
+            <span>Goddess Lakshmi</span>
+          </div>
+          <div class="mini-deity">
+            <span class="mini-deity-icon">🪶</span>
+            <span>Lord Vishnu</span>
+          </div>
+          <div class="mini-deity">
+            <span class="mini-deity-icon">🌟</span>
+            <span>Lord Hanuman</span>
+          </div>
+          <div class="mini-deity">
+            <span class="mini-deity-icon">🎵</span>
+            <span>Goddess Saraswati</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LEADERSHIP ===== -->
+  <section class="section leadership-section" id="leadership">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Meet Our Pillars</span>
+        <h2 class="section-title">Temple Leadership</h2>
+        <div class="title-ornament"><span>✦</span><span>✦</span><span>✦</span></div>
+        <p class="section-desc">Guided by unwavering devotion and decades of Vedic knowledge, our founders lead SDHT with heart and spirit.</p>
+      </div>
+      <div class="leadership-grid">
+
+        <!-- Shashtri Ji -->
+        <div class="leader-card">
+          <div class="leader-photo shashtri-bg">
+            <img src="panditjipics/pandit%20ji.avif" alt="Mahant Shashtri Ji - Head Priest & Co-Founder">
+          </div>
+          <div class="leader-content">
+            <div class="leader-role-tag">Head Priest &amp; Co-Founder</div>
+            <h3>Mahant Shashtri Ji</h3>
+            <p class="leader-full-name">Mahant HH Shri Shantiprasadacharya</p>
+            <p class="leader-desc">
+              Mahant Shashtri Ji is a highly qualified Vedic Scholar with a Master's degree in Sanskrit languages and deep expertise in chanting all 4 Vedas. He has decades of training in performing authentic Vedic rituals and ceremonies.
+            </p>
+            <p class="leader-desc">
+              As the guiding spiritual force of SDHT, he travels across the United States and internationally — including Canada, England, Europe, and Mexico — to bless devotees and perform sacred pujas.
+            </p>
+            <div class="leader-expertise">
+              <span class="expertise-tag">Vedic Rituals</span>
+              <span class="expertise-tag">Sanskrit Scholar</span>
+              <span class="expertise-tag">All 4 Vedas</span>
+              <span class="expertise-tag">Astrology</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Uma Devi -->
+        <div class="leader-card">
+          <div class="leader-photo uma-bg">
+            <img src="panditjipics/uma%20ji%20.avif" alt="Smt. Uma Devi Ji - President & Co-Founder">
+          </div>
+          <div class="leader-content">
+            <div class="leader-role-tag">President &amp; Co-Founder</div>
+            <h3>Smt. Uma Devi Ji</h3>
+            <p class="leader-full-name">Smt. Uma Devi Nautiyal</p>
+            <p class="leader-desc">
+              As the Founder and President of Shiv Durga Hindu Temple, Uma Ji is the driving force behind this sacred journey. She holds everything and everyone together with her tireless dedication and grace.
+            </p>
+            <p class="leader-desc">
+              With immense responsibility and an unwavering vision, Uma Ji has shaped SDHT into the vibrant spiritual community it is today. This beautiful temple — which cultivates Indian culture and provides religious services — would not exist without her hard work and devotion.
+            </p>
+            <div class="leader-expertise">
+              <span class="expertise-tag">Temple Management</span>
+              <span class="expertise-tag">Community Building</span>
+              <span class="expertise-tag">Cultural Programs</span>
+              <span class="expertise-tag">Interfaith Outreach</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="section services-section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Sacred Services</span>
+        <h2 class="section-title">Pooja Services</h2>
+        <div class="title-ornament"><span>✦</span><span>✦</span><span>✦</span></div>
+        <p class="section-desc">Our experienced priests perform authentic Vedic poojas at the temple or your home. Puja samagri (items) are <strong>not included</strong> — a list will be sent upon booking.</p>
+      </div>
+
+      <!-- Booking CTA banner -->
+      <div class="services-book-banner">
+        <div class="sbb-text">
+          <strong>Book a Pooja</strong>
+          <span>Call or email to confirm date, time &amp; dakshina. Available at temple or your home.</span>
+        </div>
+        <div class="sbb-actions">
+          <a href="tel:+18474368526" class="btn btn-primary">📞 (847) 436-8526</a>
+        </div>
+      </div>
+
+      <div class="psvc-grid">
+
+        <!-- Rudrabhishek -->
+        <div class="psvc-card">
+          <img class="psvc-img" src="events/rudrabhishek.jpeg" alt="Rudrabhishek - Sacred Shiva Linga Puja" loading="lazy" style="object-position: center 30%;">
+          <div class="psvc-top">
+            <span class="psvc-icon">🔱</span>
+            <div class="psvc-meta">
+              <span class="psvc-duration">⏱ 1.5 – 2 hrs</span>
+              <span class="psvc-price">💰 From $151</span>
+            </div>
+          </div>
+          <h3>Rudrabhishek</h3>
+          <p>Sacred abhishek of the Shivling with panchamrit (milk, honey, curd, ghee, sugar), gangajal, chandan, belpatra, and flowers — accompanied by chanting of the Rudrashtadhyayi.</p>
+          <div class="psvc-footer">
+            <span class="psvc-note">Samagri not included</span>
+            <a href="mailto:info@shivdurgahindutemple.org?subject=Rudrabhishek%20Booking" class="psvc-btn">Book Now →</a>
+          </div>
+        </div>
+
+        <!-- Hawan -->
+        <div class="psvc-card">
+          <img class="psvc-img" src="events/hawan.avif" alt="Hawan Yagna - Sacred Fire Ritual" loading="lazy" style="object-position: center center;">
+          <div class="psvc-top">
+            <span class="psvc-icon">🔥</span>
+            <div class="psvc-meta">
+              <span class="psvc-duration">⏱ 2 – 3 hrs</span>
+              <span class="psvc-price">💰 From $251</span>
+            </div>
+          </div>
+          <h3>Hawan / Yagna</h3>
+          <p>Sacred fire ritual for peace, prosperity &amp; harmony. Removes negative energies and attracts divine blessings. Performed for any occasion — griha pravesh, birthday, anniversary, and more.</p>
+          <div class="psvc-footer">
+            <span class="psvc-note">Samagri not included</span>
+            <a href="mailto:info@shivdurgahindutemple.org?subject=Hawan%20Booking" class="psvc-btn">Book Now →</a>
+          </div>
+        </div>
+
+        <!-- Satyanarayan Katha -->
+        <div class="psvc-card">
+          <img class="psvc-img" src="events/satyanaran%20katha.jpg" alt="Satyanarayan Katha - Puja and Bhajan" loading="lazy" style="object-position: center top;">
+          <div class="psvc-top">
+            <span class="psvc-icon">🪔</span>
+            <div class="psvc-meta">
+              <span class="psvc-duration">⏱ 2 – 3 hrs</span>
+              <span class="psvc-price">💰 From $151</span>
+            </div>
+          </div>
+          <h3>Satyanarayan Katha</h3>
+          <p>Reading of the sacred Satyanarayan story with full puja, aarti &amp; prasad distribution. Community katha held every Purnima; private kathas available by appointment at temple or home.</p>
+          <div class="psvc-footer">
+            <span class="psvc-note">Samagri not included</span>
+            <a href="mailto:info@shivdurgahindutemple.org?subject=Satyanarayan%20Katha%20Booking" class="psvc-btn">Book Now →</a>
+          </div>
+        </div>
+
+        <!-- Navgrah Abhishekam -->
+        <div class="psvc-card">
+          <img class="psvc-img" src="events/Navgraha-Puja.png" alt="Navgrah Abhishekam - Nine Planetary Deities Puja" loading="lazy" style="object-position: center center;">
+          <div class="psvc-top">
+            <span class="psvc-icon">🪐</span>
+            <div class="psvc-meta">
+              <span class="psvc-duration">⏱ 1.5 – 2 hrs</span>
+              <span class="psvc-price">💰 From $101</span>
+            </div>
+          </div>
+          <h3>Navgrah Abhishekam</h3>
+          <p>Worship of the nine planetary deities to reduce malefic effects and bring prosperity. Monthly community puja on the 1st Saturday; private bookings available anytime.</p>
+          <div class="psvc-footer">
+            <span class="psvc-note">Samagri not included</span>
+            <a href="mailto:info@shivdurgahindutemple.org?subject=Navgrah%20Abhishekam%20Booking" class="psvc-btn">Book Now →</a>
+          </div>
+        </div>
+
+        <!-- Ganesh Puja -->
+        <div class="psvc-card">
+          <img class="psvc-img" src="events/Ganpati-puja.webp" alt="Ganesh Puja - Ganpati Puja Ceremony" loading="lazy" style="object-position: center center;">
+          <div class="psvc-top">
+            <span class="psvc-icon">🐘</span>
+            <div class="psvc-meta">
+              <span class="psvc-duration">⏱ 45 – 60 min</span>
+              <span class="psvc-price">💰 From $51</span>
+            </div>
+          </div>
+          <h3>Ganesh Puja</h3>
+          <p>Auspicious puja of Shri Ganesh Ji to remove obstacles and invite blessings — ideal before any new venture, business opening, home purchase, exam, or ceremony.</p>
+          <div class="psvc-footer">
+            <span class="psvc-note">Samagri not included</span>
+            <a href="mailto:info@shivdurgahindutemple.org?subject=Ganesh%20Puja%20Booking" class="psvc-btn">Book Now →</a>
+          </div>
+        </div>
+
+        <!-- New Car Pooja -->
+        <div class="psvc-card">
+          <img class="psvc-img" src="events/new%20car%20pooja.jpg" alt="New Car Pooja - Vehicle Blessing Ceremony" loading="lazy" style="object-position: center center;">
+          <div class="psvc-top">
+            <span class="psvc-icon">🚗</span>
+            <div class="psvc-meta">
+              <span class="psvc-duration">⏱ 30 – 45 min</span>
+              <span class="psvc-price">💰 From $51</span>
+            </div>
+          </div>
+          <h3>New Car Pooja</h3>
+          <p>Vedic blessings for your new vehicle — puja performed for road safety, protection from accidents, and divine blessings on all journeys.</p>
+          <div class="psvc-footer">
+            <span class="psvc-note">Samagri not included</span>
+            <a href="mailto:info@shivdurgahindutemple.org?subject=New%20Car%20Pooja%20Booking" class="psvc-btn">Book Now →</a>
+          </div>
+        </div>
+
+        <!-- Mata Ki Chowki -->
+        <div class="psvc-card">
+          <img class="psvc-img" src="events/mata%20ki%20chauki.png" alt="Mata Ki Chowki - Goddess Durga Puja" loading="lazy" style="object-position: center top;">
+          <div class="psvc-top">
+            <span class="psvc-icon">🌸</span>
+            <div class="psvc-meta">
+              <span class="psvc-duration">⏱ 3 – 4 hrs</span>
+              <span class="psvc-price">💰 From $251</span>
+            </div>
+          </div>
+          <h3>Mata Ki Chowki</h3>
+          <p>Grand celebration of Goddess Durga with Ganesh Puja, Navgrah Puja, Durga Puja, Maa Ki Bhenten, Kanjak Puja, Maha Aarti &amp; Langar Prasad. Monthly on 2nd Saturday; private bookings available.</p>
+          <div class="psvc-footer">
+            <span class="psvc-note">Samagri not included</span>
+            <a href="mailto:info@shivdurgahindutemple.org?subject=Mata%20Ki%20Chowk%20Booking" class="psvc-btn">Book Now →</a>
+          </div>
+        </div>
+
+        <!-- Sundarkand Path -->
+        <div class="psvc-card">
+          <img class="psvc-img" src="events/sundarkand%20path.jpg" alt="Sundarkand Path - Sacred Recitation" loading="lazy" style="object-position: center top;">
+          <div class="psvc-top">
+            <span class="psvc-icon">🏹</span>
+            <div class="psvc-meta">
+              <span class="psvc-duration">⏱ 2 – 3 hrs</span>
+              <span class="psvc-price">💰 From $151</span>
+            </div>
+          </div>
+          <h3>Sundarkand Path</h3>
+          <p>Group recitation of Sundarkand from Ramcharitmanas — dedicated to Hanuman Ji. Bestows courage, protection, and peace. Monthly on 3rd Saturday; private bookings available.</p>
+          <div class="psvc-footer">
+            <span class="psvc-note">Samagri not included</span>
+            <a href="mailto:info@shivdurgahindutemple.org?subject=Sundarkand%20Path%20Booking" class="psvc-btn">Book Now →</a>
+          </div>
+        </div>
+
+        <!-- Naamkaran -->
+        <div class="psvc-card">
+          <img class="psvc-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/AnnaPrashan_%28Anna_Prashan%29_-_Hindu_First_Rice_Eating_Ceremony.JPG/960px-AnnaPrashan_%28Anna_Prashan%29_-_Hindu_First_Rice_Eating_Ceremony.JPG" alt="Naamkaran Sanskar - Hindu Baby Naming Ceremony" loading="lazy" style="object-position: center top;">
+          <div class="psvc-top">
+            <span class="psvc-icon">👶</span>
+            <div class="psvc-meta">
+              <span class="psvc-duration">⏱ 1 – 1.5 hrs</span>
+              <span class="psvc-price">💰 From $101</span>
+            </div>
+          </div>
+          <h3>Naamkaran Sanskar</h3>
+          <p>Sacred naming ceremony for newborns — a Vedic rite to bestow a divine name upon a new life with family prayers, blessings &amp; aarti.</p>
+          <div class="psvc-footer">
+            <span class="psvc-note">Samagri not included</span>
+            <a href="mailto:info@shivdurgahindutemple.org?subject=Naamkaran%20Booking" class="psvc-btn">Book Now →</a>
+          </div>
+        </div>
+
+        <!-- Vivah Sanskar -->
+        <div class="psvc-card">
+          <img class="psvc-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Saat_phere.jpg/960px-Saat_phere.jpg" alt="Vivah Sanskar - Hindu Wedding Saptapadi Ceremony" loading="lazy" style="object-position: center 30%;">
+          <div class="psvc-top">
+            <span class="psvc-icon">🪷</span>
+            <div class="psvc-meta">
+              <span class="psvc-duration">⏱ 3 – 4 hrs</span>
+              <span class="psvc-price">💰 From $501</span>
+            </div>
+          </div>
+          <h3>Vivah Sanskar</h3>
+          <p>Complete Vedic wedding ceremony — Ganesh Puja, Havan, Saptapadi (7 sacred vows), Sindoor Daan &amp; all traditional rites performed by our experienced priests.</p>
+          <div class="psvc-footer">
+            <span class="psvc-note">Samagri not included</span>
+            <a href="mailto:info@shivdurgahindutemple.org?subject=Vivah%20Booking" class="psvc-btn">Book Now →</a>
+          </div>
+        </div>
+
+        <!-- Antim Sanskar -->
+        <div class="psvc-card">
+          <img class="psvc-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Hindu_funeral.jpg/960px-Hindu_funeral.jpg" alt="Antim Sanskar - Hindu Last Rites Ceremony" loading="lazy" style="object-position: center center;">
+          <div class="psvc-top">
+            <span class="psvc-icon">🙏</span>
+            <div class="psvc-meta">
+              <span class="psvc-duration">⏱ 2 – 3 hrs</span>
+              <span class="psvc-price">💰 Call for price</span>
+            </div>
+          </div>
+          <h3>Antim Sanskar</h3>
+          <p>Last rites performed with compassion, dignity &amp; complete Vedic tradition. Our priests are available to assist families in their time of need — at home, crematorium, or temple.</p>
+          <div class="psvc-footer">
+            <span class="psvc-note">Priest available on call</span>
+            <a href="tel:+18474368526" class="psvc-btn psvc-btn-urgent">📞 Call Now →</a>
+          </div>
+        </div>
+
+        <!-- Astrology -->
+        <div class="psvc-card">
+          <img class="psvc-img" src="https://upload.wikimedia.org/wikipedia/commons/9/98/Jyotish_chart.jpg" alt="Astrology and Kundali - Vedic Jyotish Birth Chart" loading="lazy" style="object-position: center center;">
+          <div class="psvc-top">
+            <span class="psvc-icon">⭐</span>
+            <div class="psvc-meta">
+              <span class="psvc-duration">⏱ 30 – 60 min</span>
+              <span class="psvc-price">💰 From $51</span>
+            </div>
+          </div>
+          <h3>Astrology &amp; Kundali</h3>
+          <p>Vedic astrology consultations, kundali (horoscope) preparation &amp; matching, muhurat (auspicious date) selection for marriage, travel, business &amp; other important events.</p>
+          <div class="psvc-footer">
+            <span class="psvc-note">In-person or phone</span>
+            <a href="mailto:info@shivdurgahindutemple.org?subject=Astrology%20Consultation" class="psvc-btn">Inquire →</a>
+          </div>
+        </div>
+
+        <!-- Hindi & Dance Classes -->
+        <div class="psvc-card">
+          <img class="psvc-img" src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Kathak_contemporary_03.jpg" alt="Hindi and Dance Classes - Classical Indian Kathak Dance" loading="lazy" style="object-position: center top;">
+          <div class="psvc-top">
+            <span class="psvc-icon">📚</span>
+            <div class="psvc-meta">
+              <span class="psvc-duration">⏱ 1 hr / class</span>
+              <span class="psvc-price">💰 From $30/mo</span>
+            </div>
+          </div>
+          <h3>Hindi &amp; Dance Classes</h3>
+          <p>Weekly Hindi language and classical Indian dance classes for children and adults. Build cultural connections and preserve tradition for the next generation.</p>
+          <div class="psvc-footer">
+            <span class="psvc-note">All ages welcome</span>
+            <a href="mailto:info@shivdurgahindutemple.org?subject=Classes%20Inquiry" class="psvc-btn">Inquire →</a>
+          </div>
+        </div>
+
+        <!-- Yoga & Meditation -->
+        <div class="psvc-card">
+          <img class="psvc-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Yoga4Love_Freedom_Gratitude.jpg/960px-Yoga4Love_Freedom_Gratitude.jpg" alt="Yoga and Meditation - Vedic Wellness Practice" loading="lazy">
+          <div class="psvc-top">
+            <span class="psvc-icon">🧘</span>
+            <div class="psvc-meta">
+              <span class="psvc-duration">⏱ 1 hr / session</span>
+              <span class="psvc-price">💰 From $15/session</span>
+            </div>
+          </div>
+          <h3>Yoga &amp; Meditation</h3>
+          <p>Guided yoga and meditation rooted in ancient Vedic traditions. Suitable for all skill levels — promotes physical health, mental clarity &amp; spiritual well-being.</p>
+          <div class="psvc-footer">
+            <span class="psvc-note">All levels welcome</span>
+            <a href="mailto:info@shivdurgahindutemple.org?subject=Yoga%20Inquiry" class="psvc-btn">Inquire →</a>
+          </div>
+        </div>
+
+      </div><!-- /psvc-grid -->
+
+      <p class="psvc-disclaimer">* Prices shown are starting "From" rates at the temple. Home visits and extended ceremonies may vary. Puja samagri (items) are not included — a complete samagri list will be sent upon booking. Please call <a href="tel:+18474368526">(847) 436-8526</a> or email <a href="mailto:info@shivdurgahindutemple.org">info@shivdurgahindutemple.org</a> to confirm current pricing and availability.</p>
+
+    </div>
+  </section>
+
+  <!-- ===== POOJA SCHEDULE ===== -->
+  <section class="section schedule-section" id="pooja-schedule">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Temple Timings</span>
+        <h2 class="section-title">Pooja Schedule &amp; Hours</h2>
+        <div class="title-ornament"><span>✦</span><span>✦</span><span>✦</span></div>
+        <p class="section-desc">Plan your visit around our daily, weekly, and monthly pooja schedule. All are welcome to join.</p>
+      </div>
+
+      <div class="schedule-grid">
+
+        <!-- HOURS OF OPERATION -->
+        <div class="schedule-card hours-card">
+          <div class="sc-header">
+            <span class="sc-icon">⏰</span>
+            <h3>Hours of Operation</h3>
+          </div>
+          <div class="hours-seasons">
+            <div class="season-block">
+              <div class="season-label summer-label">☀️ Summer Hours (Apr – Oct)</div>
+              <table class="hours-tbl">
+                <tr><td>Mon, Tue, Wed, Fri</td><td>8:30 AM – 1:00 PM<br />&amp; 5:00 PM – 9:00 PM</td></tr>
+                <tr><td>Thursday</td><td>5:00 PM – 9:00 PM</td></tr>
+                <tr><td>Saturday</td><td>8:30 AM – 9:00 PM</td></tr>
+                <tr><td>Sunday</td><td>8:30 AM – 9:00 PM</td></tr>
+                <tr class="festival-row"><td>Festival Days</td><td>Open All Day</td></tr>
+              </table>
+            </div>
+            <div class="season-block">
+              <div class="season-label winter-label">❄️ Winter Hours (Nov – Mar)</div>
+              <table class="hours-tbl">
+                <tr><td>Mon, Tue, Wed, Fri</td><td>8:30 AM – 1:00 PM<br />&amp; 4:00 PM – 8:00 PM</td></tr>
+                <tr><td>Thursday</td><td>4:00 PM – 8:00 PM</td></tr>
+                <tr><td>Saturday</td><td>8:30 AM – 8:00 PM</td></tr>
+                <tr><td>Sunday</td><td>8:30 AM – 8:00 PM</td></tr>
+                <tr class="festival-row"><td>Festival Days</td><td>Open All Day</td></tr>
+              </table>
+            </div>
+          </div>
+          <p class="hours-note">* Hours may vary on major festivals. Call <a href="tel:+18474368526">(847) 436-8526</a> to confirm.</p>
+        </div>
+
+        <!-- DAILY SCHEDULE -->
+        <div class="schedule-card daily-card">
+          <div class="sc-header">
+            <span class="sc-icon">🕉️</span>
+            <h3>Daily Pooja Schedule</h3>
+          </div>
+          <div class="daily-list">
+            <div class="daily-item">
+              <span class="daily-time">8:30 AM</span>
+              <div class="daily-info">
+                <strong>Mangala Aarti &amp; Opening Prayers</strong>
+                <span>Temple opens — darshan of all deities</span>
+              </div>
+            </div>
+            <div class="daily-item">
+              <span class="daily-time">9:00 AM</span>
+              <div class="daily-info">
+                <strong>Deity Puja &amp; Abhishek</strong>
+                <span>Shiv Ji, Durga Mata, Ganesh Ji, Ram Darbar, Radha Krishna, Balaji</span>
+              </div>
+            </div>
+            <div class="daily-item">
+              <span class="daily-time">12:00 PM</span>
+              <div class="daily-info">
+                <strong>Madhyan Aarti</strong>
+                <span>Midday aarti with bhog offering</span>
+              </div>
+            </div>
+            <div class="daily-item highlight-item">
+              <span class="daily-time">7:00 PM</span>
+              <div class="daily-info">
+                <strong>Sandhya Aarti (Evening)</strong>
+                <span>Grand evening aarti — open to all devotees</span>
+              </div>
+            </div>
+            <div class="daily-item">
+              <span class="daily-time">7:30 PM</span>
+              <div class="daily-info">
+                <strong>Bhajan &amp; Kirtan</strong>
+                <span>Devotional singing and community prayers</span>
+              </div>
+            </div>
+            <div class="daily-item weekend-item">
+              <span class="daily-time">Sunday</span>
+              <div class="daily-info">
+                <strong>Langar / Temple Kitchen</strong>
+                <span>11:00 AM – 2:00 PM &nbsp;·&nbsp; Free prasad for all</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- WEEKLY & MONTHLY SCHEDULE -->
+        <div class="schedule-card monthly-card">
+          <div class="sc-header">
+            <span class="sc-icon">📅</span>
+            <h3>Weekly &amp; Monthly Events</h3>
+          </div>
+
+          <div class="monthly-section">
+            <div class="ms-label">Weekly</div>
+            <div class="monthly-list">
+              <div class="monthly-item">
+                <div class="mi-day">Every Sat</div>
+                <div class="mi-info">
+                  <strong>Satyanarayan Katha</strong>
+                  <span>5:00 PM &nbsp;·&nbsp; Main Temple Hall</span>
+                </div>
+              </div>
+              <div class="monthly-item">
+                <div class="mi-day">Every Sun</div>
+                <div class="mi-info">
+                  <strong>Langar &amp; Community Kitchen</strong>
+                  <span>11:00 AM – 2:00 PM &nbsp;·&nbsp; Free for all</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="monthly-section">
+            <div class="ms-label">Monthly</div>
+            <div class="monthly-list">
+              <div class="monthly-item">
+                <div class="mi-day">1st Sat</div>
+                <div class="mi-info">
+                  <strong>Navgrah Abhishekam</strong>
+                  <span>11:30 AM &nbsp;·&nbsp; Planetary deity worship</span>
+                </div>
+              </div>
+              <div class="monthly-item">
+                <div class="mi-day">2nd Sat</div>
+                <div class="mi-info">
+                  <strong>Mata Ki Chowki</strong>
+                  <span>5:30 PM &nbsp;·&nbsp; Ganesh Puja, Durga Puja, Maha Aarti, Langar</span>
+                </div>
+              </div>
+              <div class="monthly-item">
+                <div class="mi-day">3rd Sat</div>
+                <div class="mi-info">
+                  <strong>Sundarkand Path</strong>
+                  <span>4:00 PM &nbsp;·&nbsp; Hanuman Ji recitation</span>
+                </div>
+              </div>
+              <div class="monthly-item highlight-item">
+                <div class="mi-day">Purnima</div>
+                <div class="mi-info">
+                  <strong>Satyanarayan Pooja (Full Moon)</strong>
+                  <span>11:30 AM or 6:30 PM &nbsp;·&nbsp; Community katha</span>
+                </div>
+              </div>
+              <div class="monthly-item">
+                <div class="mi-day">Ekadashi</div>
+                <div class="mi-info">
+                  <strong>Ekadashi Vrat &amp; Vishnu Puja</strong>
+                  <span>Special prayers on the 11th lunar day</span>
+                </div>
+              </div>
+              <div class="monthly-item">
+                <div class="mi-day">Amavasya</div>
+                <div class="mi-info">
+                  <strong>Pitra Tarpan &amp; Shanti Puja</strong>
+                  <span>Prayers for ancestors on new moon day</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://www.mypanchang.com/2026/hi/Chicago-IL/1/october.html" target="_blank" rel="noopener" class="panchang-btn">
+            📅 View Chicago Hindu Calendar (Panchang)
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EVENTS ===== -->
+  <section class="section events-section" id="events">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Upcoming</span>
+        <h2 class="section-title">Events &amp; Festivals</h2>
+        <div class="title-ornament"><span>✦</span><span>✦</span><span>✦</span></div>
+      </div>
+      <div class="events-list">
+
+        <!-- FEATURED: Holi – next major event -->
+        <div class="event-card featured-event holi-event">
+          <div class="event-date holi-date">
+            <span class="event-month">MAR</span>
+            <span class="event-day">7</span>
+            <span class="event-year">2026</span>
+          </div>
+          <div class="event-details">
+            <span class="event-badge holi-badge">🎨 Next Major Event</span>
+            <h3>Color Holi &amp; Holika Dahan</h3>
+            <p>The most vibrant festival of the year! Join us for Holika Dahan (sacred bonfire), colour play for all ages, live music, dhol, cultural performances, and community feast. Wear white — colours provided!</p>
+            <div class="event-meta">
+              <span>⏰ 2:30 PM onwards</span>
+              <span>📍 4315 Westbrook Dr, Aurora, IL</span>
+              <span>🆓 Free Entry – All Welcome</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="event-card">
+          <div class="event-date">
+            <span class="event-month">FEB</span>
+            <span class="event-day">26</span>
+            <span class="event-year">2026</span>
+          </div>
+          <div class="event-details">
+            <h3>Maha Shivaratri</h3>
+            <p>The great night of Lord Shiva. Special Rudrabhishek, overnight bhajan, and Maha Aarti. All devotees welcome.</p>
+            <div class="event-meta">
+              <span>⏰ 6:00 PM – All Night</span>
+              <span>📍 Main Temple Hall</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="event-card">
+          <div class="event-date">
+            <span class="event-month">APR</span>
+            <span class="event-day">6</span>
+            <span class="event-year">2026</span>
+          </div>
+          <div class="event-details">
+            <h3>Ram Navami</h3>
+            <p>Birthday celebration of Lord Ram with special puja, Ramcharitmanas recitation, and prasad.</p>
+            <div class="event-meta">
+              <span>⏰ 9:00 AM – 1:00 PM</span>
+              <span>📍 Main Temple Hall</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="event-card">
+          <div class="event-date">
+            <span class="event-month">APR</span>
+            <span class="event-day">14</span>
+            <span class="event-year">2026</span>
+          </div>
+          <div class="event-details">
+            <h3>Baisakhi &amp; New Year Puja</h3>
+            <p>New Year celebrations with special puja, community meal (langar), and cultural programs.</p>
+            <div class="event-meta">
+              <span>⏰ 10:00 AM – 3:00 PM</span>
+              <span>📍 Temple &amp; Community Hall</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="event-card">
+          <div class="event-date">
+            <span class="event-month">OCT</span>
+            <span class="event-day">2</span>
+            <span class="event-year">2026</span>
+          </div>
+          <div class="event-details">
+            <h3>Navratri – 9 Nights of Durga</h3>
+            <p>Nine nights of Maa Durga worship with Garba, Dandiya Raas, and special havan ceremonies.</p>
+            <div class="event-meta">
+              <span>⏰ Oct 2–10 • 6:00 PM Daily</span>
+              <span>📍 Temple &amp; Grounds</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="event-card">
+          <div class="event-date">
+            <span class="event-month">OCT</span>
+            <span class="event-day">20</span>
+            <span class="event-year">2026</span>
+          </div>
+          <div class="event-details">
+            <h3>Diwali Mahapuja</h3>
+            <p>The Festival of Lights — Lakshmi Puja, fireworks display, community feast, and cultural show.</p>
+            <div class="event-meta">
+              <span>⏰ 5:00 PM – 10:00 PM</span>
+              <span>📍 Temple &amp; Grounds</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TEMPLE KITCHEN ===== -->
+  <section class="section kitchen-section" id="kitchen">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Prasad &amp; Langar</span>
+        <h2 class="section-title">Temple Kitchen</h2>
+        <div class="title-ornament"><span>✦</span><span>✦</span><span>✦</span></div>
+        <p class="section-desc">Nourishing body and soul — our temple kitchen serves freshly prepared, sattvic vegetarian meals made with love and devotion.</p>
+      </div>
+      <div class="kitchen-grid">
+        <div class="kitchen-info">
+          <div class="kitchen-highlight">
+            <div class="kitchen-icon">🪔</div>
+            <div>
+              <h3>Festival Prasad</h3>
+              <p>On all major festivals (Holi, Navratri, Diwali, Shivaratri), the kitchen prepares special prasad and feast plates for the entire community.</p>
+              <span class="kitchen-time">All Festival Days • Check Announcements</span>
+            </div>
+          </div>
+          <div class="kitchen-highlight">
+            <div class="kitchen-icon">📦</div>
+            <div>
+              <h3>Pre-Order Prasad Thali</h3>
+              <p>Planning a special occasion? Pre-order a full Prasad Thali for your family. Available for pick-up or delivery on selected dates.</p>
+              <span class="kitchen-time">Call (847) 436-8526 to Order</span>
+            </div>
+          </div>
+        </div>
+        <div class="kitchen-menu">
+          <h3 class="menu-title">
+            <span>🍽️</span> What We Serve
+          </h3>
+          <div class="menu-grid">
+            <div class="menu-item">
+              <span class="menu-emoji">🫓</span>
+              <span>Puri &amp; Halwa</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-emoji">🫔</span>
+              <span>Roti</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-emoji">🍚</span>
+              <span>Rice Pulav</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-emoji">🍲</span>
+              <span>Kadhi</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-emoji">🥘</span>
+              <span>Dal Makhani</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-emoji">🧀</span>
+              <span>Paneer Butter Masala</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-emoji">🥦</span>
+              <span>Mix Veg</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-emoji">🫛</span>
+              <span>Chana Masala</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-emoji">🍚</span>
+              <span>Khichdi</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-emoji">🥗</span>
+              <span>Seasonal Sabzi</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-emoji">🍮</span>
+              <span>Kheer &amp; Prasad</span>
+            </div>
+            <div class="menu-item">
+              <span class="menu-emoji">🥤</span>
+              <span>Chaas &amp; Sherbat</span>
+            </div>
+          </div>
+          <div class="kitchen-note">
+            <span>🙏</span>
+            <p>All meals are prepared with sattvic ingredients — no onion, no garlic — following temple tradition. Served with love as <em>seva</em>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LIFE AT SDHT ===== -->
+  <section class="section gallery-section" id="life-at-sdht">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Community</span>
+        <h2 class="section-title">Life at SDHT</h2>
+        <div class="title-ornament"><span>✦</span><span>✦</span><span>✦</span></div>
+        <p class="section-desc">Moments of devotion, celebration, and togetherness that define our vibrant community at Shiv Durga Hindu Temple.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item large">
+          <div class="gallery-placeholder g1">
+            <span>🎨</span>
+            <p>Holi Celebrations at SDHT</p>
+          </div>
+          <div class="gallery-overlay"><span>Holi at SDHT</span></div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder g2">
+            <span>🔥</span>
+            <p>Havan &amp; Yagna</p>
+          </div>
+          <div class="gallery-overlay"><span>Havan Ceremony</span></div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder g3">
+            <span>💃</span>
+            <p>Garba &amp; Navratri</p>
+          </div>
+          <div class="gallery-overlay"><span>Navratri Garba</span></div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder g4">
+            <span>🪔</span>
+            <p>Diwali Mahapuja</p>
+          </div>
+          <div class="gallery-overlay"><span>Diwali</span></div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder g5">
+            <span>🍱</span>
+            <p>Sunday Langar &amp; Kitchen</p>
+          </div>
+          <div class="gallery-overlay"><span>Temple Kitchen</span></div>
+        </div>
+        <div class="gallery-item large-v">
+          <div class="gallery-placeholder g6">
+            <span>🕉️</span>
+            <p>Daily Aarti &amp; Darshan</p>
+          </div>
+          <div class="gallery-overlay"><span>Aarti &amp; Darshan</span></div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder g7">
+            <span>💒</span>
+            <p>Vedic Wedding Ceremonies</p>
+          </div>
+          <div class="gallery-overlay"><span>Weddings</span></div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder g8">
+            <span>📚</span>
+            <p>Hindi &amp; Dance Classes</p>
+          </div>
+          <div class="gallery-overlay"><span>Classes at SDHT</span></div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder g9">
+            <span>🙏</span>
+            <p>Community Satsang</p>
+          </div>
+          <div class="gallery-overlay"><span>Satsang</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS ===== -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-number" data-target="20">0</span>
+          <span class="stat-suffix">+</span>
+          <span class="stat-label">Years of Service</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="500">0</span>
+          <span class="stat-suffix">+</span>
+          <span class="stat-label">Devotee Families</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="12">0</span>
+          <span class="stat-suffix"></span>
+          <span class="stat-label">Annual Festivals</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="365">0</span>
+          <span class="stat-suffix"></span>
+          <span class="stat-label">Days Open Every Year</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RECOMMENDED BUSINESSES ===== -->
+  <section class="section businesses-section" id="businesses">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Community Endorsed</span>
+        <h2 class="section-title">Recommended Businesses</h2>
+        <div class="title-ornament"><span>✦</span><span>✦</span><span>✦</span></div>
+        <p class="section-desc">Trusted local businesses recommended by our temple community — people we know and support.</p>
+      </div>
+      <div class="businesses-grid">
+
+        <div class="business-card">
+          <div class="business-icon">🛒</div>
+          <div class="business-category">Indian Grocery</div>
+          <h3>Indian Grocery &amp; Spices</h3>
+          <p>Your one-stop shop for fresh Indian groceries, spices, lentils, rice, and puja samagri in the Aurora/Naperville area.</p>
+          <div class="business-actions">
+            <a href="#contact" class="biz-link">Ask at Temple</a>
+          </div>
+        </div>
+
+        <div class="business-card">
+          <div class="business-icon">🍽️</div>
+          <div class="business-category">Indian Restaurant</div>
+          <h3>Vegetarian &amp; Indian Cuisine</h3>
+          <p>Authentic Indian vegetarian restaurants trusted by our temple community for catering events and family dining.</p>
+          <div class="business-actions">
+            <a href="#contact" class="biz-link">Ask at Temple</a>
+          </div>
+        </div>
+
+        <div class="business-card">
+          <div class="business-icon">💍</div>
+          <div class="business-category">Jewellery &amp; Clothing</div>
+          <h3>Indian Jewellery &amp; Sarees</h3>
+          <p>Traditional Indian jewellery, bridal wear, sarees, and kurtas — perfect for festivals and ceremonies.</p>
+          <div class="business-actions">
+            <a href="#contact" class="biz-link">Ask at Temple</a>
+          </div>
+        </div>
+
+        <div class="business-card">
+          <div class="business-icon">⚖️</div>
+          <div class="business-category">Legal Services</div>
+          <h3>Immigration &amp; Legal Help</h3>
+          <p>Trusted immigration attorneys and legal advisors recommended by our community for visa, green card, and citizenship matters.</p>
+          <div class="business-actions">
+            <a href="#contact" class="biz-link">Ask at Temple</a>
+          </div>
+        </div>
+
+        <div class="business-card">
+          <div class="business-icon">🏠</div>
+          <div class="business-category">Real Estate</div>
+          <h3>Real Estate Agents</h3>
+          <p>Community-recommended real estate agents who understand the needs of Indian families settling in the Chicagoland area.</p>
+          <div class="business-actions">
+            <a href="#contact" class="biz-link">Ask at Temple</a>
+          </div>
+        </div>
+
+        <div class="business-card">
+          <div class="business-icon">✈️</div>
+          <div class="business-category">Travel</div>
+          <h3>Travel &amp; Pilgrimage</h3>
+          <p>Trusted travel agents specializing in India travel, religious pilgrimage tours (Char Dham, Vaishno Devi), and visa services.</p>
+          <div class="business-actions">
+            <a href="#contact" class="biz-link">Ask at Temple</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="businesses-note">
+        <span>🙏</span>
+        <p>To list your business or get a recommendation, please contact us at <a href="mailto:info@shivdurgahindutemple.org">info@shivdurgahindutemple.org</a> or speak to the temple management.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Visit &amp; Contact Us</h2>
+        <div class="title-ornament"><span>✦</span><span>✦</span><span>✦</span></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="info-block">
+            <div class="info-icon">📍</div>
+            <div>
+              <h4>Address</h4>
+              <p>Shiv Durga Hindu Temple<br />4315 Westbrook Drive<br />Aurora, IL 60504</p>
+            </div>
+          </div>
+          <div class="info-block">
+            <div class="info-icon">📞</div>
+            <div>
+              <h4>Phone</h4>
+              <p><a href="tel:+18474368526">(847) 436-8526</a></p>
+            </div>
+          </div>
+          <div class="info-block">
+            <div class="info-icon">✉️</div>
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto:info@shivdurgahindutemple.org">info@shivdurgahindutemple.org</a></p>
+            </div>
+          </div>
+          <div class="info-block">
+            <div class="info-icon">⏰</div>
+            <div>
+              <h4>Temple Hours</h4>
+              <p class="hours-season-mini">☀️ <strong>Summer (Apr–Oct)</strong></p>
+              <table class="hours-table">
+                <tr><td>Mon–Wed &amp; Fri</td><td>8:30 AM–1 PM &amp; 5–9 PM</td></tr>
+                <tr><td>Thursday</td><td>5:00 PM – 9:00 PM</td></tr>
+                <tr><td>Sat &amp; Sun</td><td>8:30 AM – 9:00 PM</td></tr>
+              </table>
+              <p class="hours-season-mini" style="margin-top:10px">❄️ <strong>Winter (Nov–Mar)</strong></p>
+              <table class="hours-table">
+                <tr><td>Mon–Wed &amp; Fri</td><td>8:30 AM–1 PM &amp; 4–8 PM</td></tr>
+                <tr><td>Thursday</td><td>4:00 PM – 8:00 PM</td></tr>
+                <tr><td>Sat &amp; Sun</td><td>8:30 AM – 8:00 PM</td></tr>
+                <tr class="highlight-row"><td>Festival Days</td><td>Open All Day</td></tr>
+              </table>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-1.96C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.4 19.54C5.12 20 12 20 12 20s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#1a0a00"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <!-- Map Widget -->
+          <div class="map-widget">
+            <iframe
+              title="Shiv Durga Hindu Temple Location"
+              src="https://maps.google.com/maps?q=Shiv+Durga+Hindu+Temple+4315+Westbrook+Dr+Aurora+IL+60504&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              width="100%"
+              height="280"
+              style="border:0; border-radius: 12px;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <a
+              href="https://www.google.com/maps/place/Shiv+Durga+Hindu+Temple/@41.7,-88.15,15z"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="map-directions-btn">
+              🗺️ Get Directions
+            </a>
+          </div>
+
+          <h3>Send Us a Message</h3>
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="(000) 000-0000" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject / Service</label>
+              <select id="subject" name="subject">
+                <option value="">Select a Service...</option>
+                <option>General Inquiry</option>
+                <option>Abhishekam Booking</option>
+                <option>Havan / Yagna</option>
+                <option>Wedding Ceremony</option>
+                <option>Naming Ceremony</option>
+                <option>Satyanarayan Katha</option>
+                <option>Funeral Rites</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="How can we help you?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary full-width">
+              🙏 Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <span class="om-symbol footer-om">ॐ</span>
+            <h3>Shiv Durga Hindu Temple</h3>
+            <p>A sacred sanctuary of worship, learning, and community — guided by Vedic tradition and open to all.</p>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#leadership">Leadership</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#events">Events</a></li>
+              <li><a href="#kitchen">Temple Kitchen</a></li>
+              <li><a href="#life-at-sdht">Life at SDHT</a></li>
+              <li><a href="#businesses">Businesses</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-services">
+            <h4>Services</h4>
+            <ul>
+              <li>Daily Puja &amp; Aarti</li>
+              <li>Abhishekam</li>
+              <li>Havan / Yagna</li>
+              <li>Wedding Ceremonies</li>
+              <li>Naming Ceremony</li>
+              <li>Satyanarayan Katha</li>
+            </ul>
+          </div>
+          <div class="footer-hours">
+            <h4>Temple Hours</h4>
+            <p>Mon–Fri: 8 AM – 12 PM<br />5 PM – 8 PM</p>
+            <p>Sat–Sun: 8 AM – 8 PM</p>
+            <p class="footer-note">Open all day on festival days</p>
+            <h4 style="margin-top:16px;">Kitchen Hours</h4>
+            <p>Sundays: 11 AM – 2 PM</p>
+            <p class="footer-note">Special hours on festival days</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="footer-sanskrit">सर्वे भवन्तु सुखिनः • सर्वे सन्तु निरामयाः</p>
+        <p class="footer-translation">"May all beings be happy • May all beings be free from illness"</p>
+        <p class="footer-copy">&copy; 2026 Shiv Durga Hindu Temple. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">▲</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
