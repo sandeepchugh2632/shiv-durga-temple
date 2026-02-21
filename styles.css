@@ -841,6 +841,83 @@ ul { list-style: none; }
   color: rgba(255,255,255,0.45);
 }
 
+/* ── Hero Today's Menu Panel ── */
+.hero-menu-panel {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,215,0,0.15);
+  border-radius: 14px;
+  padding: 14px 16px;
+  backdrop-filter: blur(10px);
+}
+
+.hmp-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255,215,0,0.1);
+}
+
+.hmp-icon {
+  font-size: 1.6rem;
+}
+
+.hmp-label {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 0.08em;
+}
+
+.hmp-date {
+  display: block;
+  font-size: 0.65rem;
+  color: rgba(255,255,255,0.4);
+}
+
+.hmp-items {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+.hmp-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.85);
+}
+
+.hmp-item:last-child {
+  border-bottom: none;
+}
+
+.hmp-price {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--gold);
+}
+
+.hmp-note {
+  font-size: 0.68rem;
+  color: rgba(255,255,255,0.45);
+  margin: 0;
+  text-align: center;
+}
+
+.hmp-note a {
+  color: var(--saffron);
+  font-weight: 700;
+  text-decoration: none;
+}
+
 /* ============================================================
    HOLI EVENT SHOWCASE (hero events panel slideshow)
    ============================================================ */
