@@ -2464,15 +2464,29 @@ ul { list-style: none; }
 }
 
 .footer-credit {
-  font-size: 0.72rem;
-  color: rgba(255,255,255,0.2);
-  margin-top: 4px;
-  letter-spacing: 0.02em;
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.6);
+  margin-top: 8px;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+  font-family: var(--font-heading);
+  text-transform: uppercase;
 }
 
 .footer-credit strong {
-  color: rgba(255,215,0,0.4);
-  font-weight: 600;
+  background: linear-gradient(90deg, #FFD700, #FF6B00, #FFD700);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s linear infinite;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
 }
 
 /* ============================================================
