@@ -2070,7 +2070,7 @@ ul { list-style: none; }
 
 .events-body {
   display: grid;
-  grid-template-columns: 1fr 300px;
+  grid-template-columns: minmax(0, 1fr) 300px;
   gap: 28px;
   align-items: start;
 }
@@ -2079,6 +2079,7 @@ ul { list-style: none; }
   display: flex;
   flex-direction: column;
   gap: 20px;
+  min-width: 0;
 }
 
 /* ── Today's Menu Tile ── */
@@ -2209,9 +2210,9 @@ ul { list-style: none; }
 
 .event-card {
   display: grid;
-  grid-template-columns: 110px 1fr;
+  grid-template-columns: 110px minmax(0, 1fr);
   gap: 24px;
-  align-items: flex-start;
+  align-items: start;
   background: var(--white);
   border: 1px solid rgba(255,107,0,0.1);
   border-radius: var(--radius);
@@ -2295,13 +2296,14 @@ ul { list-style: none; }
 
 .event-meta {
   display: flex;
-  gap: 14px;
+  gap: 10px 14px;
   flex-wrap: wrap;
 }
 
 .event-meta span {
   font-size: 0.82rem;
   color: var(--text-muted);
+  word-break: break-word;
 }
 
 /* ============================================================
@@ -3295,7 +3297,7 @@ ul { list-style: none; }
   .contact-grid { grid-template-columns: 1fr; gap: 40px; }
 
   .event-card {
-    grid-template-columns: 90px 1fr;
+    grid-template-columns: 90px minmax(0, 1fr);
     gap: 16px;
     padding: 18px 20px;
   }
