@@ -1815,7 +1815,7 @@ ul { list-style: none; }
 
 .deities-grid {
   display: grid;
-  grid-template-columns: 1fr 1.1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   gap: 24px;
   margin-bottom: 64px;
 }
@@ -1857,6 +1857,10 @@ ul { list-style: none; }
 
 .durga-bg {
   background: linear-gradient(160deg, #6B1A40 0%, #3A0D20 100%);
+}
+
+.krishna-bg {
+  background: linear-gradient(160deg, #0D2B5E 0%, #1A1A6B 50%, #2E0D4A 100%);
 }
 
 .deity-symbol {
@@ -3242,7 +3246,7 @@ ul { list-style: none; }
   .about-grid        { grid-template-columns: 1fr; }
   .about-image-wrap  { max-width: 480px; margin: 0 auto; }
   .deities-grid      { grid-template-columns: 1fr 1fr; }
-  .featured-deity    { grid-column: span 2; }
+  .featured-deity    { grid-column: span 1; }
   .services-grid     { grid-template-columns: repeat(2, 1fr); }
   .footer-grid       { grid-template-columns: 1fr 1fr; gap: 32px; }
 }
