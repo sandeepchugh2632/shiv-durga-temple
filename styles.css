@@ -1815,9 +1815,13 @@ ul { list-style: none; }
 
 .deities-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   margin-bottom: 64px;
+}
+
+.featured-deity {
+  grid-column: span 2;
 }
 
 .deity-card {
@@ -1861,6 +1865,10 @@ ul { list-style: none; }
 
 .krishna-bg {
   background: linear-gradient(160deg, #0D2B5E 0%, #1A1A6B 50%, #2E0D4A 100%);
+}
+
+.venkateshwara-bg {
+  background: linear-gradient(160deg, #2C0E00 0%, #3A1800 50%, #1A0A2A 100%);
 }
 
 .deity-symbol {
