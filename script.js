@@ -6,6 +6,13 @@
 
 // ── Navbar scroll effect ──────────────────────────────────────
 const navbar = document.getElementById('navbar');
+const menuFlashBar = document.getElementById('menuFlashBar');
+
+function updateFlashBarTop() {
+  if (menuFlashBar && navbar) {
+    menuFlashBar.style.top = navbar.offsetHeight + 'px';
+  }
+}
 
 window.addEventListener('scroll', () => {
   if (window.scrollY > 60) {
@@ -13,7 +20,11 @@ window.addEventListener('scroll', () => {
   } else {
     navbar.classList.remove('scrolled');
   }
-});
+  updateFlashBarTop();
+}, { passive: true });
+
+window.addEventListener('resize', updateFlashBarTop, { passive: true });
+document.addEventListener('DOMContentLoaded', updateFlashBarTop);
 
 // ── Mobile menu toggle ────────────────────────────────────────
 const hamburger = document.getElementById('hamburger');
