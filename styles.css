@@ -3393,10 +3393,54 @@ ul { list-style: none; }
 }
 
 .psvc-disclaimer {
-  font-size: 0.85rem;
-  color: var(--text-muted);
-  text-align: center;
-  margin: -20px 0 32px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: linear-gradient(135deg, #fff7ed, #fef3c7);
+  border: 2px solid #f59e0b;
+  border-left: 6px solid #f59e0b;
+  border-radius: 12px;
+  padding: 18px 24px;
+  margin: -16px 0 36px;
+}
+
+.psvc-disclaimer-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.psvc-disclaimer-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.psvc-disclaimer-text strong {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #92400e;
+  letter-spacing: 0.01em;
+}
+
+.psvc-disclaimer-text span {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #78350f;
+}
+
+.psvc-disclaimer-link {
+  color: #b45309;
+  font-weight: 800;
+  text-decoration: none;
+  border-bottom: 2px solid #f59e0b;
+  padding-bottom: 1px;
+  white-space: nowrap;
+}
+
+.psvc-disclaimer-link:hover {
+  color: #92400e;
+  border-bottom-color: #92400e;
 }
 
 .sbb-text {
@@ -3575,22 +3619,6 @@ ul { list-style: none; }
 .psvc-btn-urgent:hover {
   background: rgba(155,29,32,0.15);
   border-color: var(--crimson);
-}
-
-.psvc-disclaimer {
-  font-size: 0.78rem;
-  color: rgba(0,0,0,0.45);
-  text-align: center;
-  line-height: 1.6;
-  padding: 16px 24px;
-  background: rgba(255,107,0,0.03);
-  border: 1px dashed rgba(255,107,0,0.2);
-  border-radius: 10px;
-}
-
-.psvc-disclaimer a {
-  color: var(--saffron);
-  font-weight: 700;
 }
 
 .service-book-link {
